@@ -1,0 +1,22 @@
+{
+    "expenses" :[
+    {
+        "date" : "1999/10/14",
+        "amount" : 50.10,
+        "categary" : "groceries",
+        "description": "groceries in srividha"
+    },
+    {
+        "date" : "1999/10/24",
+        "amount" : 520,
+        "categary" : "outdooractivies",
+        "description": "groceries in srividha"
+    },
+    {
+        "date" : "1999/10/04",
+        "amount" : 320,
+        "categary" : "Misc",
+        "description": "Brought coffee table in ashley"
+    }
+]
+  }

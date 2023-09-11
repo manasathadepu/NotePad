@@ -1,0 +1,37 @@
+
+[
+
+
+{
+    "contentType" : "Table",
+    "contentTitle": "Expenses",
+    "content" : [
+      {
+        "fieldType": "date",
+        "placeholder": "mm/dd/yyyy",
+        "fieldTitle":"Date",
+        "validation":"",
+        "required": false
+      },
+      {
+        "fieldType": "number",
+        "placeholder": "cost",
+        "fieldTitle" : "Amount",
+        "validation": "[0-9]+([,.][0-9]+)?",
+        "required": true
+      },
+      {
+        "fieldType": "dropdown",
+        "fieldTitle" : "Categary",
+        "options": ["groceries", "rent", "outdoor activities", "misc"],
+        "validation":"",
+        "required": true
+      },
+      {
+        "fieldType": "input",
+        "fieldTitle" : "Description",
+        "validation":"",
+        "required" : false
+      }]
+  }
+]
